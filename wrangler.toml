@@ -1,0 +1,12 @@
+name = "my-custom-project"
+type = "javascript"
+
+account_id = "15ff4b64152cf02bd99b4024e8bb372f"
+workers_dev = true
+
+[env.production]
+zone_id = "b8d68c962f9b95fc1f923d9625a3f235"
+route = "httpis///www1.asinglalabs.com/test/*"
+
+
+compatibility_date = "2021-11-21"
