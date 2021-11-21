@@ -1,0 +1,13 @@
+tunnel: 7bfc8ab4-eef5-42ff-b2c1-00241a2d3962
+credentials-file: /root/.cloudflared/7bfc8ab4-eef5-42ff-b2c1-00241a2d3962.json
+logfile: /var/log/cloudflared
+loglevel: trace
+transport-loglevel: trace
+
+ingress:
+ - hostname: www1.asinglalabs.com
+   service: https://localhost:443
+   originRequest:
+           originServerName: www1.asinglalabs.com
+           noTLSVerify: true
+ - service: http_status:404
