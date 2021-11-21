@@ -6,7 +6,7 @@ workers_dev = true
 
 [env.production]
 zone_id = "b8d68c962f9b95fc1f923d9625a3f235"
-route = "httpis///www1.asinglalabs.com/test/*"
+route = "https///www1.asinglalabs.com/test/*"
 
 
 compatibility_date = "2021-11-21"
